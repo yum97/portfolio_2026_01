@@ -1,0 +1,60 @@
+/* reset */
+html,
+body {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* layout */
+.login-wrapper {
+	display: flex;
+	height: 100vh;
+}
+
+.side {
+	width: 30%;
+	background-color: #000;
+}
+
+.center {
+	width: 40%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* form */
+.form-signin {
+	width: 100%;
+	max-width: 360px;
+}
+
+.title {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 12px;
+	font-size: 14px;
+}
+
+button {
+	width: 100%;
+	padding: 12px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.8;
+}
